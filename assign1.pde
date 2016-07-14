@@ -27,7 +27,6 @@ void draw(){
   if(k>639){
     k = -640;
   }
-  println(k);
   
   image(bg2Img,l,0);
   l = l+2;
