@@ -20,14 +20,12 @@ void setup(){
 }
 
 void draw(){
-  background(0);
   //bg
   image(bg1Img,k,0);
   k = k+2;
   if(k>639){
     k = -640;
   }
-  
   image(bg2Img,l,0);
   l = l+2;
   if(l>639){
